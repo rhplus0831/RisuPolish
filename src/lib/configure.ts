@@ -1,6 +1,3 @@
-// @ts-ignore
-import {default_polish, default_polish_kr} from "../res/defaultPrompt";
-
 function getMyArgument(name: string) {
     // @ts-ignore
     return globalThis.__pluginApis__.getArg(`RisuInputPolish::${name}`)
